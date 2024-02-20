@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="header" class="item ">
+
+    <nav class="nav-bar">
+        <a href="#about">ABOUT ME</a>
+        <a href="#portfolio">PORTFOLIO</a>
+        <a href="#contacts">CONTACTS</a>
+        <a href="#header">HOME</a>
+    </nav>
+    <div class="menu-toggle">
+        <div class="hamburger"></div>
+    </div>
+    <h1>Jane Doe,<br> Front-end developer</h1>
+</header>
+
+<section id="about" class="item">
+    <img class="about-background-image" src="assets/image.jpg" alt="about me image">
+    <img class="profile-pic" src="./assets/person.jpg" alt="profile pic">
+    <div class="about-me-text">
+        <h2>About me</h2>
+        <p>Hi, I'm Jane Doe. I've been a junior front-end developer for 5 months now.</p>
+        <p>For me, programming is not just a job, it's a hobby.</p>
+        <p>I'm open to new knowledge, I like to study new technologies and apply them in practice.</p>
+    </div>
+</section>
+
+<section id="portfolio" class="item">
+    <h2>Portfolio</h2>
+    <button class="open-window">View project 1</button>
+    <!-- Pop-up template-->
+    <div class="window" id="popup-template-project-1" >
+        <div class="popup-content">
+            <h3>FlashCards</h3>
+            <p>I did this project when iw as studying frontend on HyperSkill</p>
+            <span class="close-button">Close</span>
+        </div>
+    </div>
+
+    <figure class="project-1">
+        <img src="./assets/project1.png" alt="project1">
+        <figcaption>Flashcards</figcaption>
+    </figure>
+
+    <button class="open-window">View project 2</button>
+    <!-- Pop-up template-->
+    <div class="window" id="popup-template-project-2" >
+        <div class="popup-content">
+            <h3>Virtual Piano</h3>
+            <p>I did this project when iw as studying frontend on HyperSkill</p>
+            <span class="close-button">Close</span>
+        </div>
+    </div>
+    <figure class="project-2">
+        <img src="./assets/project2.png" alt="project2" width=100% height=auto>
+        <figcaption>Virtual Piano</figcaption>
+    </figure>
+</section>
+
+
+<section id="contacts" class="item contacts">
+    <h2>CONTACTS</h2>
+    <p>You can contact me at <a href="mailto:example@yahoo.com"> example@yahoo.com</a></p>
+    <p>or Phone number:<a href="tel:+358123444577"> +358123444577</a></p>
+    <figure>
+        <img src="assets/github.svg" alt="github">
+        <img src="assets/facebook.svg" alt="facebook">
+        <img src="assets/twitter.svg" alt="twitter">
+        <img src="assets/instagram1.svg" alt="instagram">
+    </figure>
+</section>
+
+<footer class="item">
+    <p>Copyright 2024</p>
+</footer>
+<script src="index.js"></script>
+</body>
+</html>
